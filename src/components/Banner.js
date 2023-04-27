@@ -58,6 +58,7 @@ export const Banner = () => {
             </Col>
         </Row>
       </Container>
+      <div className='transition'></div>
     </section>
   )
 }
