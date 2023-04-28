@@ -48,7 +48,7 @@ export const Banner = () => {
         <Row className='align-items-center'>
             <Col xs={12} md={6} xl={7}>
                 <span className='tagline'>Welcome to my Portfolio</span>
-                <h1>{`Hi I'm Alina `}<span className='wrap'>{text}</span></h1>
+                <h1>{`Hi I'm Alina, `}<br/> <span className='wrap'>{text}</span></h1>
                 <p>After over 5 years of experience of full time iOS development I decided to move on to something new that I have wanted for a long time.</p>
                 <p>For me, this means changing directions and domains in a search to learn new things and be better at Software.</p>
                 <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>

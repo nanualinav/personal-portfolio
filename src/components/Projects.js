@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Nav, Tab} from 'react-bootstrap';
 import projImg from '../assets/img/project-img1.png';
 import { ProjectCard } from './ProjectCard';
-
+import 'animate.css';
 
 export const Projects = () => {
     const projects = [
