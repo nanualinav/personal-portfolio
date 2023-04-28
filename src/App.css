@@ -146,7 +146,7 @@ span.navbar-text {
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(251, 192, 75, .8);
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -187,7 +187,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background-color: rgba(251, 192, 75, .8);;
   left: 0;
   top: 0;
   z-index: -1;

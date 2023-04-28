@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from '../assets/img/header-img.svg'
+import headerImg from '../assets/img/header-img.svg' 
 
 export const Banner = () => {
     const [loopNo, setLoopNo] = useState(0);
@@ -18,7 +18,14 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker) }
-    }, [text])
+    });
+
+    const handleOnConnect = () => {
+        window.scrollTo({
+            top: document.documentElement.scrollHeight,
+            behavior: 'smooth',
+          });
+    };
 
     const tick = () => {
         let i = loopNo % toRotate.length;
@@ -51,7 +58,7 @@ export const Banner = () => {
                 <h1>{`Hi I'm Alina, `}<br/> <span className='wrap'>{text}</span></h1>
                 <p>After over 5 years of experience of full time iOS development I decided to move on to something new that I have wanted for a long time.</p>
                 <p>For me, this means changing directions and domains in a search to learn new things and be better at Software.</p>
-                <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                <button onClick={handleOnConnect}>Let's connect <ArrowRightCircle size={25}/></button>
             </Col>
             <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt='Header Img'/>
