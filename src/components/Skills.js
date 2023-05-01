@@ -38,35 +38,35 @@ export const Skills = () => {
                     <h2>Skills</h2>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
-                            <img src={meter90} alt='Image' />
+                            <img src={meter90} alt='Meter' />
                             <h5>Web Development</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter95} alt='Image' />
+                            <img src={meter95} alt='Meter' />
                             <h5>iOS Development</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter95} alt='Image' />
+                            <img src={meter95} alt='Meter' />
                             <h5>Git</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter80} alt='Image' />
+                            <img src={meter80} alt='Meter' />
                             <h5>Web Design</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter95} alt='Image' />
+                            <img src={meter95} alt='Meter' />
                             <h5>Creativity</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter90} alt='Image' />
+                            <img src={meter90} alt='Meter' />
                             <h5>API</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter80} alt='Image' />
+                            <img src={meter80} alt='Meter' />
                             <h5>Responsive Design</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter90} alt='Image' />
+                            <img src={meter90} alt='Meter' />
                             <h5>SEO</h5>
                         </div>
                     </Carousel>
@@ -74,7 +74,7 @@ export const Skills = () => {
             </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="Meter" />
     </section>
   )
 }
