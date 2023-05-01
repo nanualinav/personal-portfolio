@@ -360,6 +360,7 @@ border-right: 0.08em solid #666;
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .skill p {

@@ -41,12 +41,11 @@ export const Banner = () => {
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
             setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } else if (isDeleting && updatedText === 'W') {
             setIsDeleting(false);
             setLoopNo(loopNo + 1);
             setDelta(500);
         }
-
     }
 
   return (
