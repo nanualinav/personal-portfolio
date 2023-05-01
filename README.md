@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies used:
+- React
+- CSS framework React-bootstrap
+- CSS animations framework Animate.css
 
-## Available Scripts
-
-In the project directory, you can run:
+To run the project follow the steps:
 
 ### `npm start`
 
