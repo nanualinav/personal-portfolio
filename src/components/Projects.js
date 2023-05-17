@@ -9,6 +9,7 @@ import project1 from '../assets/img/project1.png';
 import project2 from '../assets/img/project2.png';
 import project3 from '../assets/img/project3.png';
 import project4 from '../assets/img/project4.png';
+import project5 from '../assets/img/project5.png';
 
 export const Projects = () => {
     const projects = [
@@ -26,6 +27,11 @@ export const Projects = () => {
             title: 'Appointment Planner',
             description: "A React Web application that manages contacts and appointments. The app consists of two pages: one to view and add contacts and one to view and add appointments.",
             imgUrl: project3
+        },
+        {
+            title: 'To Do List',
+            description: 'A to-do list project implemented using TypeScript and Vue.js.',
+            imgUrl: project5
         },
         {
             title: 'Adopt a Pet!',
