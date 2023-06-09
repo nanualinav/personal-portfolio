@@ -6,10 +6,10 @@ import headerImg from '../assets/img/header-img.svg';
 export const Banner = () => {
     const [loopNo, setLoopNo] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-
-    const toRotate = ['Web Developer'];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
+    const [index, setIndex] = useState(1);
+    const toRotate = ['Front-End Developer', 'iOS Developer'];
     const period = 2000;
 
     useEffect(() => {
@@ -18,7 +18,7 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker) }
-    });
+    }, [text, delta]);
 
     const handleOnConnect = () => {
         window.scrollTo({
@@ -39,12 +39,16 @@ export const Banner = () => {
         }
 
         if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
+            setIsDeleting(true)
+            setIndex(prevIndex => prevIndex - 1)
             setDelta(period);
-        } else if (isDeleting && updatedText === 'W') {
-            setIsDeleting(false);
-            setLoopNo(loopNo + 1);
-            setDelta(500);
+        } else if (isDeleting && updatedText === '') {
+            setIsDeleting(false)
+            setLoopNo(loopNo + 1)
+            setIndex(1)
+            setDelta(300)
+        } else {
+            setIndex(prevIndex => prevIndex + 1)
         }
     }
 
@@ -55,8 +59,9 @@ export const Banner = () => {
             <Col xs={12} md={6} xl={7}>
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>{`Hi! My name is Alina, `}<br/> <span className='wrap'>{text}</span></h1>
-                <p>After more than 5 years working on building iOS applications, I decided to move on to something new that I have wanted for a long time.</p>
-                <p>For me, this means changing directions in a search for learning new things and be better at Software.</p>
+                <p>Experienced iOS and Front-End Developer with a strong passion for crafting elegant and efficient solutions. With 4 years of hands-on experience in iOS app development, I have a deep understanding of Swift and UIKit, along with expertise in integrating APIs and implementing sleek user interfaces.</p>
+                <p>Additionally, I have recently ventured into web development, where I have gained valuable skills in HTML, CSS, and JavaScript, along with  React framework. I thrive in collaborative environments, always eager to learn and adapt to new technologies.</p>
+                <p>Whether it's building intuitive iOS applications or creating seamless web experiences, I strive to deliver high-quality code and delightful user experiences.</p>
                 <button onClick={handleOnConnect}>Let's connect <ArrowRightCircle size={25}/></button>
             </Col>
             <Col xs={12} md={6} xl={5}>

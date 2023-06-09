@@ -11,7 +11,6 @@ import colorSharp from "../assets/img/banner-bg.jpg"
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -39,7 +38,7 @@ export const Skills = () => {
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
                             <img src={meter90} alt='Meter' />
-                            <h5>Web Development</h5>
+                            <h5>Front-End Development</h5>
                         </div>
                         <div className='item'>
                             <img src={meter95} alt='Meter' />
@@ -59,7 +58,11 @@ export const Skills = () => {
                         </div>
                         <div className='item'>
                             <img src={meter90} alt='Meter' />
-                            <h5>API</h5>
+                            <h5>REST API</h5>
+                        </div>
+                        <div className='item'>
+                            <img src={meter90} alt='Meter' />
+                            <h5>JSON</h5>
                         </div>
                         <div className='item'>
                             <img src={meter80} alt='Meter' />
