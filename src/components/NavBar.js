@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import linkedinIcon from '../assets/img/linkedin-icon.svg'
 import githubIcon from '../assets/img/github-icon.svg'
-import instaIcon from '../assets/img/insta-icon.svg'
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router
@@ -56,6 +55,5 @@ export const NavBar = () => {
                 </Container>
             </Navbar>
         </Router>
-
     );
 }
