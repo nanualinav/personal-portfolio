@@ -60,7 +60,7 @@ export const Banner = () => {
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>{`Hi! My name is Alina, `}<br/> <span className='wrap'>{text}</span></h1>
                 <br/>
-                <p>Experienced iOS and Front-End Developer with a strong passion for crafting elegant and efficient solutions. With over 5 years of hands-on experience in iOS app development, I have a deep understanding of Swift and UIKit, along with expertise in integrating APIs and implementing sleek user interfaces.</p>
+                <p>Experienced iOS and Front-End Developer with a strong passion for crafting elegant and efficient solutions. With my hands-on experience in iOS app development, I have a deep understanding of Swift and UIKit, along with expertise in integrating APIs and implementing sleek user interfaces.</p>
                 <p>Additionally, I have recently ventured into web development, where I have gained valuable skills in HTML, CSS, and JavaScript, along with  React framework.</p>
                 <button onClick={handleOnConnect}>Let's connect <ArrowRightCircle size={25}/></button>
             </Col>
