@@ -1,11 +1,13 @@
 # Portfolio Website in React
 
-## this project was made for showcasing my projects I work on. It will be always in progress and updated with new information and new features. 
+This project was made for showcasing my projects I work on. It will be always in progress and updated with new information and new features. 
 
-## Technologies used:
+Technologies used:
 - React
 - CSS framework React-bootstrap
 - CSS animations framework Animate.css
+
+
 
 
 To run the project follow the steps:
