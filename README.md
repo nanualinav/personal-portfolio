@@ -8,6 +8,10 @@ Technologies used:
 - CSS animations framework Animate.css
 
 
+<img width="1501" alt="portfolio" src="https://github.com/nanualinav/personal-portfolio/assets/22339975/d30f5a3b-7937-476d-95b1-a5ed6ec6a5e3">
+
+
+
 
 
 To run the project follow the steps:
