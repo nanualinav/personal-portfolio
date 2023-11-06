@@ -70,7 +70,7 @@ export const NavBar = () => {
                 className={
                   activeLink === "resume" ? "active navbar-link" : "navbar-link"
                 }
-                download="resume"
+                download="Alina-Nanu-CV"
                 target="_blank"
                 rel="noreffer"
               >
