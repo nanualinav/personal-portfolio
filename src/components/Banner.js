@@ -11,7 +11,7 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h2>Hi! I'm Alina,</h2>
-            <h1 className="mb-3">Software Engineer</h1>
+            <h1 className="mb-3 display-4">Software Engineer</h1>
             <div className="social-icon">
               <a
                 className="me-2"
