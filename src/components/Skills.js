@@ -1,83 +1,77 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
-import Carousel from "react-multi-carousel";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 
-import meter80 from '../assets/img/meter-80.svg';
-import meter90 from '../assets/img/meter-90.svg';
-import meter95 from '../assets/img/meter-95.svg';
-import colorSharp from "../assets/img/banner-bg.jpg"
+import colorSharp from "../assets/img/banner-bg.jpg";
+import profileImg from "../assets/img/profile-image.jpg";
 
 export const Skills = () => {
-    const responsive = {
-        superLargeDesktop: {
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
-
   return (
-    <section className='skill' id='skills'>
-      <Container>
+    <section className="skill-section pb-5" id="skills">
+      <Container className="mb-5">
         <Row>
-            <Col>
-                <div className='skill-bx'>
-                    <h2>Skills</h2>
-                    <Carousel responsive={responsive} infinite={true} className='skill-slider'>
-                        <div className='item'>
-                            <img src={meter90} alt='Meter' />
-                            <h5>Front-End Development</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter95} alt='Meter' />
-                            <h5>iOS Development</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter95} alt='Meter' />
-                            <h5>Git</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter80} alt='Meter' />
-                            <h5>Web Design</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter95} alt='Meter' />
-                            <h5>Creativity</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter90} alt='Meter' />
-                            <h5>REST API</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter90} alt='Meter' />
-                            <h5>JSON</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter80} alt='Meter' />
-                            <h5>Responsive Design</h5>
-                        </div>
-                        <div className='item'>
-                            <img src={meter90} alt='Meter' />
-                            <h5>SEO</h5>
-                        </div>
-                    </Carousel>
-                </div>
-            </Col>
+          <Col xs="auto" className="mt-5">
+            <img className="profile-picture" src={profileImg} alt="Profile" />
+          </Col>
+          <Col className="mt-5 m-4">
+            <h3>Summary</h3>
+            <p>
+              My journey in the world of technology began a long time ago, with
+              mobile app development, where I was building applications for
+              iPhone and iPad devices. As a developer with a desire for continuous
+              growth and learning, I am now shifting my focus to Frontend
+              Development.
+            </p>
+            <p>
+              My solid foundation in iOS development has equipped me with strong
+              problem-solving abilities, a keen eye for detail, and a commitment
+              to delivering high-quality code.
+            </p>
+            <h3 className="mt-5">Key Skills</h3>
+            <div className="d-inline-block tech-box me-3">
+              <p>JavaScript</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>React</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>HTML/CSS</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>WordPress</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Git</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Firebase</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Swift</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Networking (RESTful APIs, JSON, XML)</p>
+            </div>
+            <h3>Software</h3>
+            <div className="d-inline-block tech-box me-3">
+              <p>Notion</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Freeform</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Adobe Creative Suite</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Sketch</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Microsoft 365 Suite</p>
+            </div>
+          </Col>
         </Row>
       </Container>
       <img className="background-image-left" src={colorSharp} alt="Meter" />
     </section>
-  )
-}
+  );
+};
