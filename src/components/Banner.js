@@ -3,7 +3,6 @@ import headerImg from "../assets/img/header-img.svg";
 import linkedinIcon from "../assets/img/linkedin-icon.svg";
 import githubIcon from "../assets/img/github-icon.svg";
 import behanceIcon from "../assets/img/behance-icon.svg";
-import dribbleIcon from "../assets/img/dribbble-icon.svg";
 
 export const Banner = () => {
   return (
