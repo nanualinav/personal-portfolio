@@ -1,92 +1,43 @@
-import React from 'react';
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
-import { ProjectCard } from './ProjectCard';
+import React from "react";
+import { Container, Row } from "react-bootstrap";
 
 /* images */
-import project1 from '../assets/img/project1.png';
-import project2 from '../assets/img/project2.png';
-import project3 from '../assets/img/project3.png';
-import project4 from '../assets/img/project4.png';
-import project5 from '../assets/img/project5.png';
+import portfolioImg from "../assets/img/portfolio.png";
+import teaProject from "../assets/img/tea-proj.png";
+import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
-    const projects = [
-        {
-            title: 'Jammming',
-            description: 'A React Web application that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.',
-            imgUrl: project1
-        },
-        {
-            title: 'Tea Cozy',
-            description: 'This project was about creating a fictional tea shop website using a design spec with all of its CSS properties and values.',
-            imgUrl: project2
-        },
-        {
-            title: 'Appointment Planner',
-            description: "A React Web application that manages contacts and appointments. The app consists of two pages: one to view and add contacts and one to view and add appointments.",
-            imgUrl: project3
-        },
-        {
-            title: 'To Do List',
-            description: 'A to-do list project implemented using TypeScript and Vue.js.',
-            imgUrl: project5
-        },
-        {
-            title: 'Adopt a Pet!',
-            description: 'A pet adoption website that allows users to view all the animals of a particular species and view the profiles of specific animals.',
-            imgUrl: project4
-        }
-    ];
+  const projects = [
+    {
+      title: "Portfolio Website v2.0",
+      description:
+        "This is version 2.0 of my personal portfolio made for showcasing my projects I work on. It will be always in progress and updated with new information and new features. Also, there you can find the updated resume which can be downloaded from the navigation bar menu.",
+      imgUrl: portfolioImg,
+      liveUrl: "https://alinananu-portfolio-website.netlify.app",
+      gitHubUrl: "https://github.com/nanualinav/personal-portfolio/blob/main",
+      technologies: ["React", "React-bootstrap", "CSS Animation", "Netlify"],
+    },
+    {
+      title: "Tea Cozy",
+      description:
+        "This project is a fictional tea shop responsive webpage, built from scratch using flexbox layout.",
+      imgUrl: teaProject,
+      liveUrl: "https://nanualinav.github.io/Tea-Cozy/",
+      gitHubUrl: "https://github.com/nanualinav/Tea-Cozy/tree/main",
+      technologies: ["HTML", "CSS"],
+    },
+  ];
 
-    return (
-        <section className='project' id="projects">
-            <Container>
-                <Row>
-                    <Col size={12}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div>
-                                    <h2>Projects</h2>
-                                    <p>Here are some small projects I've been working on since I started my web development journey.</p>
-                                    <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-                                        <Nav variant='pills' className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey='first'>Tab One</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey='second'>Tab Two</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey='third'>Tab Three</Nav.Link>
-                                            </Nav.Item>
-                                        </Nav>
-                                        <Tab.Content >
-                                            <Tab.Pane eventKey='first'>
-                                                <Row>
-                                                    {
-                                                        projects.map((project, index) => {
-                                                            return (
-                                                                <ProjectCard key={index} {...project} />
-                                                            )
-                                                        })
-                                                    }
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey='second'>
-                                                <p>Coming soon...</p>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey='third'>
-                                                <p>Coming soon...</p>
-                                            </Tab.Pane>
-                                        </Tab.Content>
-                                    </Tab.Container>
-                                </div>}
-                        </TrackVisibility>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
-    )
-}
+  return (
+    <section className="projects-section" id="projects">
+      <Container className="mt-3 pb-4">
+        <h2 className="pb-5 pt-5">Projects</h2>
+        <Row>
+          {projects.map((project, index) => {
+            return <ProjectComponent key={index} {...project} />;
+          })}
+        </Row>
+      </Container>
+    </section>
+  );
+};
