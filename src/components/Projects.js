@@ -4,6 +4,7 @@ import { Container, Row } from "react-bootstrap";
 /* images */
 import portfolioImg from "../assets/img/portfolio.png";
 import teaProject from "../assets/img/tea-proj.png";
+import masterclassProject from "../assets/img/masterclass-proj.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -16,6 +17,21 @@ export const Projects = () => {
       liveUrl: "https://alinananu-portfolio-website.netlify.app",
       gitHubUrl: "https://github.com/nanualinav/personal-portfolio/blob/main",
       technologies: ["React", "React-bootstrap", "CSS Animation", "Netlify"],
+    },
+    {
+      title: "Photography Masterclass",
+      description:
+        "This is a Photography Masterclass website built with Bootstrap. In this project I learned how to utilize the components in order to create a functional and responsive web interface.",
+      imgUrl: masterclassProject,
+      liveUrl: "https://nanualinav.github.io/photography-workshop/",
+      gitHubUrl: "https://github.com/nanualinav/photography-workshop/tree/main",
+      technologies: [
+        "HTML",
+        "Bootstrap",
+        "Responsive Design",
+        "GitHub",
+        "GitLab",
+      ],
     },
     {
       title: "Tea Cozy",
