@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
-import resume from "../assets/resume/Alina-Nanu-CV.pdf"
+import resume from "../assets/resume/Alina-Nanu-CV.pdf";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -40,6 +40,15 @@ export const NavBar = () => {
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
                 }
                 onClick={() => onUpdateActiveLink("home")}
+              >
+                Home
+              </Nav.Link>
+              <Nav.Link
+                href="#about"
+                className={
+                  activeLink === "about" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("about")}
               >
                 About
               </Nav.Link>

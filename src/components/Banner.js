@@ -7,7 +7,7 @@ import behanceIcon from "../assets/img/behance-icon.svg";
 export const Banner = () => {
   return (
     <section className="banner" id="home">
-      <Container>
+      <Container className="container-fluid">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h2>Hi! I'm Alina,</h2>

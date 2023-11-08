@@ -7,7 +7,7 @@ import profileImg from "../assets/img/profile-image.jpg";
 
 export const Skills = () => {
   return (
-    <section className="skill-section pb-5" id="skills">
+    <section className="skill-section pb-5" id="about">
       <Container className="mb-5">
         <Row>
           <Col xs="auto" className="mt-5">
@@ -18,9 +18,9 @@ export const Skills = () => {
             <p>
               My journey in the world of technology began a long time ago, with
               mobile app development, where I was building applications for
-              iPhone and iPad devices. As a developer with a desire for continuous
-              growth and learning, I am now shifting my focus to Frontend
-              Development.
+              iPhone and iPad devices. As a developer with a desire for
+              continuous growth and learning, I am now shifting my focus to
+              Frontend Development.
             </p>
             <p>
               My solid foundation in iOS development has equipped me with strong
