@@ -6,8 +6,8 @@ import behanceIcon from "../assets/img/behance-icon.svg";
 
 export const Banner = () => {
   return (
-    <section className="banner" id="home">
-      <Container className="container-fluid">
+    <section className="banner vh-100" id="home">
+      <Container className="container-fluid my-4">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h2>Hi! I'm Alina,</h2>
@@ -37,13 +37,6 @@ export const Banner = () => {
               >
                 <img src={behanceIcon} alt="" />
               </a>
-              {/* <a
-                href="https://dribbble.com/nanualinav"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={dribbleIcon} alt="" />
-              </a> */}
             </div>
             <br />
             <br />
