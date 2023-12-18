@@ -38,6 +38,9 @@ export const Skills = () => {
               <p>HTML/CSS</p>
             </div>
             <div className="d-inline-block tech-box me-3">
+              <p>Swift</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
               <p>WordPress</p>
             </div>
             <div className="d-inline-block tech-box me-3">
@@ -47,12 +50,24 @@ export const Skills = () => {
               <p>Firebase</p>
             </div>
             <div className="d-inline-block tech-box me-3">
-              <p>Swift</p>
-            </div>
-            <div className="d-inline-block tech-box me-3">
               <p>Networking (RESTful APIs, JSON, XML)</p>
             </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Salesforce Commerce Cloud (SFCC)</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Headless Commerce</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Chakra UI</p>
+            </div>
             <h3>Software</h3>
+            <div className="d-inline-block tech-box me-3">
+              <p>Visual Studio Code</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Xcode</p>
+            </div>
             <div className="d-inline-block tech-box me-3">
               <p>Notion</p>
             </div>
