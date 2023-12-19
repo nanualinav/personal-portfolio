@@ -6,10 +6,19 @@ import portfolioImg from "../assets/img/portfolio.png";
 import memoryGame from "../assets/img/game.gif"
 import teaProject from "../assets/img/tea-proj.png";
 import masterclassProject from "../assets/img/masterclass-proj.png";
+import weatherImg from "../assets/img/weather.gif"
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Weather Widget",
+      description: `This is a three-day Weather Forecast app. It utilizes the OpenWeather API to retrieve accurate and real-time weather data`,
+      imgUrl: weatherImg,
+      liveUrl: "https://forecast-weather-widget.netlify.app",
+      gitHubUrl: "https://github.com/nanualinav/weather-app",
+      technologies: ["React", "Chakra UI", "Netlify", "OpenWeather API"]
+    },
     {
       title: "Memory Game",
       description: `This project is a playful experiment with Chakra, a user-friendly React component library.
