@@ -29,17 +29,6 @@ export const Projects = () => {
       technologies: ["React", "Chakra UI", "Netlify"]
     },
     {
-      title: "Portfolio Website v2.0",
-      description:
-        `This is version 2.0 of my personal portfolio made for showcasing my projects I work on. 
-        It will be always in progress and updated with new information and new features. 
-        Also, there you can find the updated resume which can be downloaded from the navigation bar menu.`,
-      imgUrl: portfolioImg,
-      liveUrl: "https://alinananu-portfolio-website.netlify.app",
-      gitHubUrl: "https://github.com/nanualinav/personal-portfolio/blob/main",
-      technologies: ["React", "React-bootstrap", "CSS Animation", "Netlify"],
-    },
-    {
       title: "Photography Masterclass",
       description:
         `This is a Photography Masterclass website built with Bootstrap. 
