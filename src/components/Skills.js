@@ -16,29 +16,25 @@ export const Skills = () => {
           <Col className="mt-5 m-4">
             <h3>Summary</h3>
             <p>
-              My journey in the world of technology began a long time ago, with
-              mobile app development, where I was building applications for
-              iPhone and iPad devices. As a developer with a desire for
-              continuous growth and learning, I am now shifting my focus to
-              Frontend Development.
+              The qualities that most define me are critical thinking, perseverance to achieve a well-made software product and enthusiasm for new technologies. 
+              During my software engineering career, I have gained experience in mobile development, building apps for iOS devices.
             </p>
             <p>
-              My solid foundation in iOS development has equipped me with strong
-              problem-solving abilities, a keen eye for detail, and a commitment
-              to delivering high-quality code.
+              Besides that, I have a passion for front-end development and lately I started working on my portfolio to showcase the skills I gained in this area.  
+              I also completed the Salesforce Commerce Cloud React digital training provided by OSF Academy.
             </p>
             <h3 className="mt-5">Key Skills</h3>
             <div className="d-inline-block tech-box me-3">
-              <p>JavaScript</p>
-            </div>
-            <div className="d-inline-block tech-box me-3">
-              <p>React</p>
+              <p>Swift</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>HTML/CSS</p>
             </div>
             <div className="d-inline-block tech-box me-3">
-              <p>Swift</p>
+              <p>JavaScript</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>React</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>WordPress</p>
@@ -50,7 +46,7 @@ export const Skills = () => {
               <p>Firebase</p>
             </div>
             <div className="d-inline-block tech-box me-3">
-              <p>Networking (RESTful APIs, JSON, XML)</p>
+              <p>Networking</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>Salesforce Commerce Cloud (SFCC)</p>

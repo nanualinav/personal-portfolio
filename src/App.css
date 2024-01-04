@@ -128,7 +128,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   width: 42px;
   height: 42px;
   position: absolute;
-  background-color: rgba(251, 192, 75, .8);
+  background-color: rgb(86, 87, 151);
   border-radius: 50%;
   transform: scale(0);
   transition: 0.3s ease-in-out;
@@ -209,10 +209,9 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
     color: white;
     font-size: 17px;
     font-weight: 500;
-    border: .5px solid white;
+    border: .5px solid rgba(251, 192, 75, .8);;
     border-radius: 5px;
     padding: 0 5px;
-    background-color: rgb(86, 87, 151);
 }
 
 .skill-section {
@@ -229,10 +228,6 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 /* Projects CSS */
 .projects-section {
   background-color: black;
-}
-
-.project h2 {
-  color: rgb(253, 202, 93);
 }
 
 .projects-section img {

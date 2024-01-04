@@ -2,7 +2,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import linkedinIcon from "../assets/img/linkedin-icon.svg";
 import githubIcon from "../assets/img/github-icon.svg";
-import behanceIcon from "../assets/img/behance-icon.svg";
 
 export const Banner = () => {
   return (
@@ -29,21 +28,11 @@ export const Banner = () => {
               >
                 <img src={githubIcon} alt="" />
               </a>
-              <a
-                className="me-2"
-                href="https://www.behance.net/nanualina"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={behanceIcon} alt="" />
-              </a>
             </div>
             <br />
             <br />
             <p>
-              🖥️ I love exploring and creating. My goal is to blend coding
-              expertise with the passion for design and deliver captivating and
-              interactive web experiences.
+              🖥️  I am a highly motivated developer with a passion for creating exceptional user experiences.
             </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
