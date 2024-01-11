@@ -35,9 +35,6 @@ export const Banner = () => {
               🖥️  I am a highly motivated developer with a passion for creating exceptional user experiences.
             </p>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} className="headerImg" alt="Header Img" />
-          </Col>
         </Row>
       </Container>
       <div className="transition"></div>

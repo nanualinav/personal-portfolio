@@ -4,6 +4,7 @@ import { Container, Row } from "react-bootstrap";
 /* images */
 import memoryGame from "../assets/img/game.gif"
 import teaProject from "../assets/img/tea-proj.png";
+import ticTacToeImg from '../assets/img/tic-tac-toe.png'
 import masterclassProject from "../assets/img/masterclass-proj.png";
 import weatherImg from "../assets/img/weather.gif"
 import { ProjectComponent } from "./ProjectComponent";
@@ -26,6 +27,14 @@ export const Projects = () => {
       liveUrl: "https://card-memory-game-project.netlify.app",
       gitHubUrl: "https://github.com/nanualinav/memory-game",
       technologies: ["React", "Chakra UI", "Netlify"]
+    },
+    {
+      title: "Tic-Tac-Toe Game ",
+      description: `This is a game project built with JavaScript, HTML and CSS.`,
+      imgUrl: ticTacToeImg,
+      liveUrl: "https://play-game-tic.netlify.app",
+      gitHubUrl: "https://github.com/nanualinav/tic-tac-toe",
+      technologies: ["JavaScript", "HTML", "CSS"]
     },
     {
       title: "Photography Masterclass",

@@ -231,7 +231,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 
 .projects-section img {
-  width: 600px;
+  width: 500px;
   border-radius: 20px;
 }
 
