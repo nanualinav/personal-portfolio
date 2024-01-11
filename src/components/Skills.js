@@ -17,11 +17,10 @@ export const Skills = () => {
             <h3>Summary</h3>
             <p>
               The qualities that most define me are critical thinking, perseverance to achieve a well-made software product and enthusiasm for new technologies. 
-              During my software engineering career, I have gained experience in mobile development, building apps for iOS devices.
+              During my software engineering career, I have gained experience in Mobile Development, building apps for iOS devices.
             </p>
             <p>
-              Besides that, I have a passion for front-end development and lately I started working on my portfolio to showcase the skills I gained in this area.  
-              I also completed the Salesforce Commerce Cloud React digital training provided by OSF Academy.
+              Besides that, I have a passion for Web Development and lately I started working on my portfolio to showcase the skills I gained in this area.  
             </p>
             <h3 className="mt-5">Key Skills</h3>
             <div className="d-inline-block tech-box me-3">
