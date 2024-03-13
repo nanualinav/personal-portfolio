@@ -20,7 +20,7 @@ export const Skills = () => {
               During my software engineering career, I have gained experience in Mobile Development, building apps for iOS devices.
             </p>
             <p>
-              Besides that, I have a passion for Web Development and lately I started working on my portfolio to showcase the skills I gained in this area.  
+              Besides that, I have a passion for Web Development and lately I started gaining work experience in this area, showcasing my skills and projects here, in my portfolio.  
             </p>
             <h3 className="mt-5">Key Skills</h3>
             <div className="d-inline-block tech-box me-3">
@@ -36,16 +36,25 @@ export const Skills = () => {
               <p>React</p>
             </div>
             <div className="d-inline-block tech-box me-3">
+              <p>Redux</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
               <p>WordPress</p>
             </div>
             <div className="d-inline-block tech-box me-3">
-              <p>Git</p>
+              <p>Git & GitHub</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>Firebase</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>Networking</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>Node.js (with Express.js)</p>
+            </div>
+            <div className="d-inline-block tech-box me-3">
+              <p>SQL / No SQL Databases</p>
             </div>
             <div className="d-inline-block tech-box me-3">
               <p>Salesforce Commerce Cloud (SFCC)</p>
