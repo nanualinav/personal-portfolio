@@ -28,7 +28,7 @@ export const ProjectComponent = ({
           className="btn-warning me-3 btn-sm"
           onClick={() => open(liveUrl)}
         >
-          View Project
+          View Live Project
         </Button>
         <Button
           type="button"
