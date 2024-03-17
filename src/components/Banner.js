@@ -1,8 +1,15 @@
 import { Col, Container, Row } from "react-bootstrap";
 import linkedinIcon from "../assets/img/linkedin-icon.svg";
 import githubIcon from "../assets/img/github-icon.svg";
+import { useEffect } from "react";
 
 export const Banner = () => {
+
+  useEffect(() => {
+    const img = new Image()
+    img.src = './assets/img/banner-bg.jpg'
+  }, [])
+
   return (
     <section className="banner vh-100" id="home">
       <Container className="container-fluid my-4">
