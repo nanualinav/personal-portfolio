@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
-import resume from "../assets/resume/Alina-Nanu-CV.pdf"
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -73,17 +72,6 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("connect")}
               >
                 Connect
-              </Nav.Link>
-              <Nav.Link
-                href={resume}
-                className={
-                  activeLink === "resume" ? "active navbar-link" : "navbar-link"
-                }
-                download="Alina-Nanu-CV"
-                target="_blank"
-                rel="noreffer"
-              >
-                Download Resume
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
