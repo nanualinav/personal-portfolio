@@ -7,18 +7,10 @@ import teaProject from "../assets/img/tea-proj.png";
 import ticTacToeImg from '../assets/img/tic-tac-toe.png'
 import masterclassProject from "../assets/img/masterclass-proj.png";
 import weatherImg from "../assets/img/weather.gif"
-import creativitiesImg from "../assets/img/creativities.png"
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
   const projects = [
-    {
-      title: "Creativities NGO - In progress",
-      description: `Website refactoring`,
-      imgUrl: creativitiesImg,
-      liveUrl: "http://creativities.ro",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
-    },
     {
       title: "Weather Widget",
       description: `This is a three-day Weather Forecast app. It utilizes the OpenWeather API to retrieve accurate and real-time weather data`,
